@@ -1,0 +1,1320 @@
+{
+  "schema": "kinetic-garden/v1",
+  "title": "Living Spatial Infrastructure / Kinetic Garden",
+  "subtitle": "살아있는 공간 인프라 — 식물의 생육과 인간의 생활을 함께 설계하다\n연구·선택 보드 / 2026.10.11 / v0.3 / 작업명·방향 채택·실물 검증 전",
+  "version": "0.3",
+  "sections": [
+    {
+      "id": "lsi_concept",
+      "title": "P01 정원이 공간이 된다면",
+      "intro": "Living Spatial Infrastructure — 살아있는 공간 인프라. 개념 탐구를 위한 작업명이며 최종 채택 전이다.",
+      "color": "#EBFFEE",
+      "cards": [
+        {
+          "id": "question",
+          "title": "설계의 출발 순서",
+          "body": "인간의 동선·가구·수납과 식물의 뿌리·빛·물·성장 여유를 함께 계획하면 어떤 집이 가능한가? 어머니의 정원을 정리하는 문제에서 공간 자체를 형성하는 질문으로 확장한다. 레일형 화분은 그 안의 한 적용 후보다.",
+          "status": "사용자 인사이트·해석",
+          "sources": []
+        },
+        {
+          "id": "levels",
+          "title": "서로 다른 통합 수준",
+          "body": "① 식생이 시선·빛·경계를 형성. ② 생육과 생활의 설비·운영을 통합. ③ 살아있는 나무의 구조 하중을 연구. 이번 분석의 분류이며 표준 분류는 아니다. 식생 파티션을 만들기 위해 생체 하중 구조까지 채택할 필요는 없다.",
+          "status": "분석 틀",
+          "sources": [
+            {
+              "label": "LSI-01 · 취리히시 / MFO Park",
+              "url": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/park-und-gruenanlagen/mfo-park.html"
+            },
+            {
+              "label": "LSI-02 · TUM / Baubotanik Tower",
+              "url": "https://www.arc.ed.tum.de/en/gtla/research/experimental-buildings/baubotanik-tower/"
+            }
+          ]
+        },
+        {
+          "id": "paths",
+          "title": "두 방향을 열어두기",
+          "body": "A 식생이 기존 공간에 퍼져가는 모습: 성장 경로와 허용 범위를 연구. B 공존 환경을 처음부터 설계: 사람·식물의 조건과 권한을 함께 계획. 혼합도 가능하다. 어느 정도의 자유로운 성장과 설비 통합을 원하는지는 사용자가 고른다.",
+          "status": "방향 미정",
+          "sources": []
+        },
+        {
+          "id": "contribution",
+          "title": "이번 디자인의 기여 후보",
+          "body": "식물과 건축의 통합에는 선례가 있다. 성장하는 경계, 바뀌는 생활, 돌봄, 가구와 설비의 조화, 거주자의 변경 권한을 연결하는 경험을 연구한다. 차별화·구매 수요·특허 신규성은 아직 검증되지 않았다.",
+          "status": "해석·가설",
+          "sources": [
+            {
+              "label": "LSI-04 · Boeri / Vertical Forest",
+              "url": "https://www.stefanoboeriarchitetti.net/en/project/vertical-forest/"
+            }
+          ]
+        },
+        {
+          "id": "agency",
+          "title": "누가 바꿀 수 있는가",
+          "body": "Bosco Verticale는 전문 관리와 공유 식생을 갖추지만 개인이 임의 교체할 수 없다. 이번 기획에서는 공용 기반과 개인 취향의 범위, 직접 하고 싶은 돌봄, 맡길 일, 도움 거절·중단·수동 개입을 선택할 수 있는지 살핀다.",
+          "status": "확인에서 도출한 질문",
+          "sources": [
+            {
+              "label": "LSI-04 · Boeri / Vertical Forest",
+              "url": "https://www.stefanoboeriarchitetti.net/en/project/vertical-forest/"
+            }
+          ]
+        },
+        {
+          "id": "questions",
+          "title": "육하원칙을 다시 묻기",
+          "body": "누가: 거주자·돌봄·설계·관리자. 무엇: 경계·빛·생육·변화. 어디: 실제 생활과 식재 구역. 언제: 기계·생장·돌봄 주기. 왜: 공존하며 원하는 공간을 만들기. 어떻게: 기반·가동·관리·권한을 비교. 인터뷰와 실측은 후속 단계다.",
+          "status": "조사·설계 질문",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "lsi_cases",
+      "title": "P02 구현 범위와 선례",
+      "intro": "공원·실험 구조·주거·업무 공간의 차이를 읽는다. 선례는 가정의 수요·비용·성능 증명이 아니다.",
+      "color": "#F5FBFF",
+      "cards": [
+        {
+          "id": "mfo",
+          "title": "MFO Park · 스위스",
+          "body": "취리히시: 2001–2002 시공. 이중 철골과 케이블, 상부 식재통에 덩굴이 자라 공간을 둘러싼다. 내부는 휴식·문화 활동의 장소다. 식생의 경계 안에서 생활하는 참고 사례이며, 식물이 건축 하중을 맡거나 실내 가변을 검증한 사례는 아니다.",
+          "status": "공개 원문 확인·해석",
+          "sources": [
+            {
+              "label": "LSI-01 · 취리히시 / MFO Park",
+              "url": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/park-und-gruenanlagen/mfo-park.html"
+            }
+          ]
+        },
+        {
+          "id": "tower",
+          "title": "Baubotanik Tower · 독일",
+          "body": "2009년 약 9m 실험탑. 어린 버드나무들을 연결하고 성장 중 금속 비계·펌프를 사용한다. TUM 공개 설명은 하중시험이 필요하며 방문객 접근이 불가하다고 명시한다. 설명 갱신일은 미확인. 주거에 바로 적용할 수 있는 하중 검증 사례로 제시하지 않는다.",
+          "status": "공개 원문 확인·한계",
+          "sources": [
+            {
+              "label": "LSI-02 · TUM / Baubotanik Tower",
+              "url": "https://www.arc.ed.tum.de/en/gtla/research/experimental-buildings/baubotanik-tower/"
+            }
+          ]
+        },
+        {
+          "id": "cube",
+          "title": "Plane-Tree-Cube · 독일",
+          "body": "나골트 2012년 장기 실험. 10m 입방체의 식재에서 상부 수관과 하부 줄기의 공간 성격이 성장하며 변한다. TUM은 2023년 나무들의 결합 생장을 기록한다. 이 사실만으로 전체 하중 검증이나 비계 철거 완료를 주장할 수 없다.",
+          "status": "공개 원문·2023 기록",
+          "sources": [
+            {
+              "label": "LSI-03 · TUM / Plane-Tree-Cube",
+              "url": "https://www.arc.ed.tum.de/en/gtla/research/experimental-buildings/plane-tree-cube/"
+            }
+          ]
+        },
+        {
+          "id": "bosco",
+          "title": "Bosco Verticale · 이탈리아",
+          "body": "밀라노 주거, 2014 완공. 식물 노출과 수관 성장에 맞춘 발코니·중앙 급수·전문 관리. 식생은 공유 자산으로 개인 변경·제거·교체를 제한한다. 주거 통합에는 설비뿐 아니라 소유와 운영 규칙이 필요하다는 질문을 남긴다.",
+          "status": "설계자 원문 확인·해석",
+          "sources": [
+            {
+              "label": "LSI-04 · Boeri / Vertical Forest",
+              "url": "https://www.stefanoboeriarchitetti.net/en/project/vertical-forest/"
+            }
+          ]
+        },
+        {
+          "id": "pasona",
+          "title": "Pasona Urban Farm · 일본",
+          "body": "운영사 기록: 2010–2017 사례. 사무실 천장·벽·발코니 재배와 직원 돌봄. 2011년 발표는 로비 논의 절전 휴지를 기록하며, 이전에 따라 2017년 견학 종료. 일상 통합의 가능성과 운영 자원의 제약을 함께 보여준다.",
+          "status": "운영사 원문·PDF 색인",
+          "sources": [
+            {
+              "label": "LSI-05 · Pasona / 2010 발표",
+              "url": "https://www.pasonagroup.co.jp/news/index112.html?dispmid=798&itemid=347"
+            },
+            {
+              "label": "LSI-06 · Pasona / 운영 기간",
+              "url": "https://www.pasonagroup.co.jp/agri.html"
+            },
+            {
+              "label": "LSI-07 · Pasona / 2011 발표 PDF",
+              "url": "https://www.pasonagroup.co.jp/Portals/0/resources/news/public/20111128.pdf"
+            }
+          ]
+        },
+        {
+          "id": "environment",
+          "title": "Spheres와 SolarLeaf",
+          "body": "Spheres(미국): 사람·식물 환경을 조정하고 전문팀이 관리. 그 온습도를 가정 권장값으로 쓰지 않는다. SolarLeaf(독일, 2013 파일럿): 미세조류 외피와 배관·열회수·차양을 연결. 뿌리식물 정원과 다른 기술이며 설비 통합의 보조 사례다.",
+          "status": "운영·개발 주체 원문",
+          "sources": [
+            {
+              "label": "LSI-08 · Spheres / 운영 FAQ",
+              "url": "https://www.seattlespheres.com/the-spheres-weekend-public-visits"
+            },
+            {
+              "label": "LSI-09 · Arup / SolarLeaf",
+              "url": "https://www.arup.com/en-us/projects/solarleaf/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lsi_design",
+      "title": "P03 두 시간과 설계 선택",
+      "intro": "생육의 안정성, 생활의 가변성, 거주자의 선택을 함께 시험한다. 기계·건축·생육의 실물 검증 전이다.",
+      "color": "#F8F5FF",
+      "cards": [
+        {
+          "id": "clocks",
+          "title": "기계·생물·돌봄의 시간",
+          "body": "초·분: 개방·차폐·조명·수납 변화. 주·월·년: 잎·가지·뿌리·계절 변화. 돌봄은 두 시간을 잇는다. 속도는 종·환경·장치에 따라 달라진다. 설치 직후·성장 후·전정·교체 뒤를 비교하고, 허용할 밀도와 변화는 거주자가 정한다.",
+          "status": "제안·가설",
+          "sources": []
+        },
+        {
+          "id": "base",
+          "title": "안정된 생육 + 독립 가동",
+          "body": "첫 비교 후보: 뿌리·물·지지는 안정된 기반에 두고 조명·가벼운 패널·수납을 독립 이동. 고정 뿌리의 덩굴이 가동부를 가로지르면 힘이 전달될 수 있다. 공유 설비도 분기·격리·청소·교체 접근을 연구한다. 상세 구조와 구동은 미정이다.",
+          "status": "설계 제안·미검증",
+          "sources": []
+        },
+        {
+          "id": "scope",
+          "title": "가구·리모델링·신축",
+          "body": "기존 집: 탈착식 식생 파티션·돌봄 모듈. 리모델링: 식재 구역·접근·생활 설비 연계. 신축: 성장 여유와 공존 조건을 처음부터 계획. 기존 A~D 가구안은 첫 갈래의 비교 후보다. 범위에 따라 협업·기간·비용을 다시 조사한다.",
+          "status": "범위 선택 전",
+          "sources": []
+        },
+        {
+          "id": "swot",
+          "title": "확장 개념의 SWOT",
+          "body": "S: 공간 경험·생육·돌봄을 함께 설계할 가능성. W: 서로 다른 수명·성장·수리와 생활 영향. O: 리모델링·설계·돌봄 협업 가설. T: 기존 대안·설치 비용·돌봄 중단·변경 권한 갈등. 실제 절감·가격·수요·안전은 검증 전이다.",
+          "status": "분석·가설",
+          "sources": []
+        },
+        {
+          "id": "test",
+          "title": "한 경계부터 비교하기",
+          "body": "거실–작업 공간이나 창 주변 하나를 고른다. 현재 배치 / 일반 선반 / 식생 경계 수동 모형을 같은 활동으로 비교한다. 공간 효과와 짧은 동작 시험, 수주~계절의 생육 관찰을 분리한다. 일반 대안으로 충분하면 통합·구동 범위를 줄일 수 있다.",
+          "status": "후속 실험 제안",
+          "sources": []
+        },
+        {
+          "id": "choices",
+          "title": "내가 고를 빈칸",
+          "body": "방향 A / B / 혼합: 미정\n가구 / 리모델링 / 신축: 미정\n식물의 첫 공간 역할: 미정\n허용할 성장·밀도·계절 변화: 미정\n내가 할 돌봄 / 맡길 돌봄: 미정\n개인 변경권 / 공용 관리: 미정\n고정 / 이동 / 교체할 것: 미정\n다음 관찰·모형·협업·보류: 미정",
+          "status": "사용자 결정 영역",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "arc_606",
+      "title": "R01 606 설치와 장기 사용",
+      "intro": "비초에 606을 핵심 아키텍처 레퍼런스로 채택한다. 정원의 형태·규격·실제 부품 채택은 미정이다.",
+      "color": "#E8EDF6",
+      "cards": [
+        {
+          "id": "intuition",
+          "title": "사용자의 건축적 직감",
+          "body": "설치, 오래 쓰는 목적, 선반의 조합이 하나의 건축처럼 느껴진다는 직감을 연구의 출발점으로 삼는다. 오래 유지하는 기반 위에서 생활과 식생 구성을 바꾸는 시스템으로 연결할 수 있다.",
+          "status": "사용자 인사이트·해석",
+          "sources": []
+        },
+        {
+          "id": "structure",
+          "title": "설치한 기준과 핀 결합",
+          "body": "1960년 Dieter Rams 설계. E-Track을 벽이나 포스트에 두고 핀으로 선반·캐비닛·작업면을 구성한다. E-Track은 고정·재배치 기반이며 화분을 모터로 주행시키는 이송 레일은 아니다.",
+          "status": "공식 자료 확인",
+          "sources": [
+            {
+              "label": "ARC-01 · Vitsœ 606",
+              "url": "https://www.vitsoe.com/gb/606"
+            },
+            {
+              "label": "ARC-02 · Vitsœ 구조",
+              "url": "https://www.vitsoe.com/gb/606/structures"
+            }
+          ]
+        },
+        {
+          "id": "longlife",
+          "title": "시스템과 부품의 수명",
+          "body": "FAQ는 오래된 부품과 새 부품의 호환, 이사와 재구성, 상담·도면 보관을 설명한다. 거래 조건은 과거의 모든 부품 공급을 보장하지 않는다. 호환성과 영구 공급은 구분해서 연구한다.",
+          "status": "공식 설명·경계",
+          "sources": [
+            {
+              "label": "ARC-03 · Vitsœ FAQ",
+              "url": "https://www.vitsoe.com/us/faqs"
+            },
+            {
+              "label": "ARC-05 · Vitsœ 거래 조건",
+              "url": "https://www.vitsoe.com/us/terms-and-conditions"
+            },
+            {
+              "label": "ARC-06 · Vitsœ 일본어 FAQ",
+              "url": "https://www.vitsoe.com/jp/faqs"
+            }
+          ]
+        },
+        {
+          "id": "form",
+          "title": "조형의 질서를 전이하기",
+          "body": "브루탈리즘처럼 읽힌다는 인상은 사용자의 조형 해석이다. 역사적 분류로 단정하지 않는다. 반복 구조·수평면·접합·빈칸을 식생의 밀도와 비교한다. 콘크리트나 거친 표면은 아직 필수 재료가 아니다.",
+          "status": "해석·심미성 가설",
+          "sources": []
+        },
+        {
+          "id": "transfer",
+          "title": "정원으로 가져올 원리",
+          "body": "설치 기준과 교체 모듈, 부분 확장, 결합 상태의 가시성, 부품과 도면 기록을 함께 연구한다. 프레임은 유지하면서 식물·펌프·센서·조명을 바꿀 수 있는지는 조건별로 확인한다.",
+          "status": "제안·검증 전",
+          "sources": [
+            {
+              "label": "ARC-04 · Vitsœ Good design",
+              "url": "https://www.vitsoe.com/gb/about/good-design"
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "설치와 습기의 경계",
+          "body": "원문은 설치 기반의 강도, 구성 변경 절차와 과도한 습기 노출의 경계를 설명한다. 606의 조립 원리를 정원의 설치·젖은 하중·누수·구동 성능 근거로 대신 사용할 수는 없다.",
+          "status": "적용 경계",
+          "sources": [
+            {
+              "label": "ARC-02 · Vitsœ 구조",
+              "url": "https://www.vitsoe.com/gb/606/structures"
+            },
+            {
+              "label": "ARC-03 · Vitsœ FAQ",
+              "url": "https://www.vitsoe.com/us/faqs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arc_candidates",
+      "title": "R02 추가 후보 5개",
+      "intro": "제품·건축 이론·물리적 사용자 인터페이스를 비교한다. 영어·독일어·프랑스어 등 원문 근거와 설계 해석을 구분한다.",
+      "color": "#FFF1DC",
+      "cards": [
+        {
+          "id": "usm",
+          "title": "1 USM Haller와 식재 모듈",
+          "body": "건축의 모듈 문법을 가구로 전개한 사례이며 World of Plants는 기존 Haller에 식재를 더한다. 가구와 식물을 합친 대안은 이미 존재한다. 성장하는 경계·돌봄·사용자의 변경 권한에서 우리 차이를 확인한다.",
+          "status": "확인·경쟁 비교 후보",
+          "sources": [
+            {
+              "label": "REF-01 · USM 역사 · 독일어",
+              "url": "https://www.usm.com/de-de/ueber-usm/geschichte"
+            },
+            {
+              "label": "REF-02 · USM World of Plants",
+              "url": "https://www.usm.com/en-uk/collections/usm-haller-system/world-of-plants"
+            },
+            {
+              "label": "REF-03 · USM 식재 설명 PDF",
+              "url": "https://www.usm.com/media/12665/aworldofplants_usm_haller_operating_instructions_en.pdf"
+            }
+          ]
+        },
+        {
+          "id": "habraken",
+          "title": "2 Habraken Supports",
+          "body": "The Uses of Levels는 기반과 내부 구성의 수준, 설계·사용 중 통제권을 다룬다. 오래 유지할 설비와 바꾸어 쓸 모듈뿐 아니라 누가 바꿀 수 있는지를 계획하는 이론 후보다. 형태 레퍼런스는 아니다.",
+          "status": "확인·권한 분석 후보",
+          "sources": [
+            {
+              "label": "REF-04 · Habraken The Uses of Levels",
+              "url": "https://habraken.com/html/downloads/the_uses_of_levels.pdf"
+            }
+          ]
+        },
+        {
+          "id": "profiles",
+          "title": "3 Bosch Rexroth 프로파일",
+          "body": "표준 프레임과 연결 부품을 용접 없이 조합·변경하는 산업 시스템. 식재·조명·수납·제한 구동을 더하고 제거하는 모형 기반으로 연구한다. 단면·브랜드·젖은 주거 하중 적합성은 아직 선정·검증 전이다.",
+          "status": "확인·구조 모형 후보",
+          "sources": [
+            {
+              "label": "REF-05 · Bosch Rexroth · 프랑스어",
+              "url": "https://expertise.boschrexroth.fr/profiles-aluminium/profiles-aluminium-standard/"
+            }
+          ]
+        },
+        {
+          "id": "waterstop",
+          "title": "4 GARDENA Water Stop",
+          "body": "액세서리 분리와 물 공급 차단을 연결하는 PUI. 사용자 동작과 설비 상태가 이어지는 원리를 관찰한다. 흐름 차단과 잔수 제거는 다르며 정원 호스용 설명을 실내 무누수 보증으로 사용하지 않는다.",
+          "status": "확인·물 연결 PUI 후보",
+          "sources": [
+            {
+              "label": "REF-06 · GARDENA Water Stop",
+              "url": "https://us.gardena.com/collections/quick-connect-system/products/gardena-18218"
+            }
+          ]
+        },
+        {
+          "id": "neutrik",
+          "title": "5 Neutrik TRUE1",
+          "body": "방향 구분과 의도적인 잠금·해제의 전원 연결 PUI. 기존 모델의 단계적 종료와 후속 모델은 장수명 시스템의 부품 세대 관리도 보여준다. 첫 모형은 전기를 연결하지 않고 조작만 비교한다.",
+          "status": "확인·잠금 PUI 후보",
+          "sources": [
+            {
+              "label": "REF-07 · Neutrik 기존 TRUE1 TOP",
+              "url": "https://www.neutrik.com/en/product/nac3fx-w-top"
+            },
+            {
+              "label": "REF-08 · Neutrik TRUE1 S",
+              "url": "https://www.neutrik.co.uk/product/nac3f-true1-s"
+            }
+          ]
+        },
+        {
+          "id": "choose",
+          "title": "고르는 기준을 남기기",
+          "body": "606+Habraken: 기반과 권한. USM: 기존 식재 가구와 차이. 프로파일: 물리적 구조 모형. GARDENA·Neutrik: 연결·해제 경험. 모두 채택할 필요는 없다. 먼저 볼 후보와 이유: __________",
+          "status": "사용자 선택·미정",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "arc_pui",
+      "title": "R03 접점과 오래 쓰는 방법",
+      "intro": "PUI는 여기서 잡기·끼우기·잠그기·풀기·상태 읽기를 포함한 물리적 사용자 인터페이스로 해석한다.",
+      "color": "#E8F7F1",
+      "cards": [
+        {
+          "id": "physical",
+          "title": "손으로 바꾸는 경험",
+          "body": "구조가 충분히 고정되었는지, 해제하면 무엇이 움직이는지, 연결 방향이 맞는지를 보여줄 수 있는가? 잡는 면·양손 접근·잠금 상태를 비교한다. 공구 없는 변경과 공구 없는 최초 설치를 구분한다.",
+          "status": "조작·사용성 가설",
+          "sources": []
+        },
+        {
+          "id": "service",
+          "title": "물과 돌봄의 연결",
+          "body": "용기를 꺼내기 전에 공급 차단, 남은 물을 받을 곳, 뿌리·가지의 연결을 확인할 수 있어야 하는가? 청소·전정·교체를 한 사람의 실제 순서로 관찰한다. 장치가 만든 새 관리도 함께 센다.",
+          "status": "관찰 질문",
+          "sources": [
+            {
+              "label": "REF-06 · GARDENA Water Stop",
+              "url": "https://us.gardena.com/collections/quick-connect-system/products/gardena-18218"
+            }
+          ]
+        },
+        {
+          "id": "lifetimes",
+          "title": "서로 다른 수명",
+          "body": "설치 기반, 식물, 용기, 펌프·센서·조명은 다른 주기로 바뀐다. 이사·식재 중단·고장 때 무엇을 유지할지 연구한다. 접점 규칙·부품 표기·설치 및 변경 기록·대체 부품을 설계 조건으로 본다.",
+          "status": "장기 사용 제안",
+          "sources": [
+            {
+              "label": "ARC-03 · Vitsœ FAQ",
+              "url": "https://www.vitsoe.com/us/faqs"
+            },
+            {
+              "label": "ARC-05 · Vitsœ 거래 조건",
+              "url": "https://www.vitsoe.com/us/terms-and-conditions"
+            }
+          ]
+        },
+        {
+          "id": "swot",
+          "title": "SWOT에 더할 관점",
+          "body": "강점 후보: 설치·수리·재구성의 연속성. 약점: 초기 설치와 관리 부품 증가. 기회 후보: 이사·돌봄·변경 서비스. 위협: 기존 모듈 식재 가구, 공급 중단, 독립 화분 선호. 비용 절감과 서비스 수요는 가설이다.",
+          "status": "분석·수요 검증 전",
+          "sources": []
+        },
+        {
+          "id": "experiment",
+          "title": "작은 수동 모형부터",
+          "body": "프레임 하나에 식재 자리·빈 성장 구간·조명 또는 수납 하나를 구성한다. 추가·탈착·청소 접근·잠금 확인을 비교하고, 생육과 실제 설비는 별도 기록한다. 일반 선반이 같은 결과를 내는지도 비교한다.",
+          "status": "첫 실험 제안",
+          "sources": []
+        },
+        {
+          "id": "decision",
+          "title": "내가 결정할 빈칸",
+          "body": "가져올 606 원리: ______\n조형 요소·첫 후보: ______\n오래 유지할 것 / 바꿀 것: ______\n직접 변경할 것 / 맡길 것: ______\n첫 적용 범위·보류 이유: ______",
+          "status": "사용자 선택·미정",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "00 출발점과 감상",
+      "intro": "개인 경험에서 출발한 기존 집의 적용 연구. 상위 질문 P01과 연결하며 기록·사실·해석·가설을 구분한다.",
+      "color": "#FFF7F0",
+      "cards": [
+        {
+          "id": "story",
+          "title": "어머니의 정원에서",
+          "body": "2학년 가구디자인의 베란다 정원 기획. 집 꾸미기를 좋아하는 아파트 거주자의 취향과, 정리는 힘들고 가구와 어울리기 어려웠던 어머니의 거실정원에서 시작했다. 현장 측정 없이 사용자가 전한 회고다.",
+          "status": "기록",
+          "sources": []
+        },
+        {
+          "id": "impression",
+          "title": "관계를 디자인하는 아이디어",
+          "body": "식물을 살리는 기술과 집을 아름답게 유지하는 일이 함께 성립하도록 식물·화분·가구·돌봄 행동의 관계를 설계할 가능성이 있다. 로봇의 필요성은 줄어드는 수고와 새 부담을 비교해 판단한다.",
+          "status": "감상·해석",
+          "sources": []
+        },
+        {
+          "id": "question",
+          "title": "기존 집 적용의 연구 질문",
+          "body": "서로 다른 식물과 기존 화분을 가진 사람이, 가구와 어울리는 정원을 꾸미면서 청소·급수·손질·재배치의 수고를 줄이려면 어떤 시스템이 필요한가? 문제 정의는 사용자가 수정한다. 상위 질문 P01을 기존 집에서 살펴보는 적용 갈래다.",
+          "status": "가설·미정",
+          "sources": []
+        },
+        {
+          "id": "legend",
+          "title": "상태와 근거의 읽는 법",
+          "body": "기록=개인 경험. 확인=공개 원문 확인. 해석=자료를 연결한 분석. 가설=검증 전 효과·수요. 제안=선택 가능한 방법. 미정=결정·측정 필요. 제조사 기능 확인은 직접 사용·성능 검증과 다르다.",
+          "status": "사용 안내",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "01 디자인싱킹 × 육하원칙",
+      "intro": "Discover → Define → Develop → Deliver. 현재는 문헌 조사와 개념 비교; 공감 인터뷰·시제품 실험은 후속 제안.",
+      "color": "#F8F5FF",
+      "cards": [
+        {
+          "id": "who",
+          "title": "Who · 누가",
+          "body": "출발 후보는 식물과 집 꾸미기를 좋아하는 아파트 거주자. 돌봄 담당자, 가족·청소 담당자, 식물을 줄이거나 포기한 사람도 조사한다. 타깃 연령과 식물 수는 미정.",
+          "status": "조사 제안",
+          "sources": []
+        },
+        {
+          "id": "what",
+          "title": "What · 무엇을",
+          "body": "배치·급수·물받이·도구 정리·손질·청소·화분 이동을 나눈다. 가장 힘든 행동 한 가지와 계속 직접 하고 싶은 즐거움을 선택한다.",
+          "status": "조사 제안",
+          "sources": []
+        },
+        {
+          "id": "where",
+          "title": "Where · 어디서",
+          "body": "거실 / 확장된 창가 / 미확장 발코니 / 개방 발코니 / 공유 복도는 다른 환경이다. 실제 채광·배수·전원·동선·대피·설치 치수를 측정한다.",
+          "status": "조사 제안",
+          "sources": []
+        },
+        {
+          "id": "when",
+          "title": "When · 언제",
+          "body": "매일 보기, 물 주는 날, 청소일, 분갈이, 여행, 계절 전환, 손님 방문. 빈도와 반복 수고를 실제 장면에서 기록한다.",
+          "status": "조사 제안",
+          "sources": []
+        },
+        {
+          "id": "why",
+          "title": "Why · 왜",
+          "body": "식물 생존, 취향 표현, 정리·수고 감소 중 무엇이 가장 중요한가? 식물이 흩어진 상태를 꼭 바꾸고 싶은지부터 확인한다.",
+          "status": "조사 제안",
+          "sources": []
+        },
+        {
+          "id": "how",
+          "title": "How · 어떻게",
+          "body": "현재 방식과 수동 모듈을 먼저 비교하고 잔여 마찰에 제한 구동을 붙일 수 있다. 사용자 결정점: 문제 선택 → 후보 유지·혼합·보류 → 실험 합격 기준.",
+          "status": "방법 근거·제안",
+          "sources": [
+            {
+              "label": "Design Council · Double Diamond",
+              "url": "https://www.designcouncil.org.uk/resources/the-double-diamond/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "title": "02 서구 표본 — 국가별 환경",
+      "intro": "미국·잉글랜드/영국·독일의 자료다. 서구 전체의 문화·취향이나 주택을 대표하지 않는다.",
+      "color": "#F5FBFF",
+      "cards": [
+        {
+          "id": "us",
+          "title": "미국 · 주거와 계절",
+          "body": "ACS는 단독주택 증가와 대규모 공동주택 증가를 함께 보여준다(2005–2024). 미네소타의 겨울 실내 식물 안내는 빛·습도·배수·해충을 다룬다. 도시 공동주택과 단독주택, 기후대를 나눠 조사할 이유가 있다.",
+          "status": "확인·해석 / R01·02",
+          "sources": [
+            {
+              "label": "Census 2025 · 주거 변화",
+              "url": "https://www.census.gov/library/stories/2025/09/20-years-housing.html"
+            },
+            {
+              "label": "UMN 2026 · 겨울 식물 관리",
+              "url": "https://extension.umn.edu/about/our-stories/news/winter-houseplant-tips"
+            }
+          ]
+        },
+        {
+          "id": "uk",
+          "title": "잉글랜드 / 영국 · 소공간",
+          "body": "전용 외부 plot 보유는 잉글랜드 82%, 런던 60%(2024 주택 특성). plot은 정원과 동일하지 않다. RHS는 외기 발코니의 강풍·배수·젖은 흙 하중을 안내한다. 전용 마당과 도시 발코니를 구분한다.",
+          "status": "확인·해석 / R04·06",
+          "sources": [
+            {
+              "label": "English Housing Survey 2024–25",
+              "url": "https://www.gov.uk/government/statistics/chapters-for-english-housing-survey-2024-to-2025-headline-findings-on-demographics-and-household-resilience/chapter-1-profile-of-households-and-dwellings"
+            },
+            {
+              "label": "RHS · Roof gardens and balconies",
+              "url": "https://www.rhs.org.uk/garden-design/roof-gardens-balconies"
+            }
+          ]
+        },
+        {
+          "id": "de",
+          "title": "독일 · 임대·실내외 분류",
+          "body": "2024 전체 인구의 임대 거주 53%(Destatis 검색 색인 확인, 본문 접근 오류). 연방 통계는 실내 식물과 화단·발코니 식물을 별도 분류한다. 분해·이사 가능한 가구와 계절 교체는 설계 후보다.",
+          "status": "확인 범위 제한·해석 / R07·08",
+          "sources": [
+            {
+              "label": "Destatis 2025 · 임대 거주",
+              "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2025/PD25_40_p002.html"
+            },
+            {
+              "label": "연방 원예 통계 · Zierpflanzen",
+              "url": "https://www.bmel-statistik.de/landwirtschaft/gartenbau/zierpflanzen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "title": "03 동양 표본 — 국가별 환경",
+      "intro": "일본·중국의 도시 사례·싱가포르를 비교한다. 동양 전체의 취향으로 묶지 않는다.",
+      "color": "#FFF7F0",
+      "cards": [
+        {
+          "id": "jp",
+          "title": "일본 · 공동주택·피난",
+          "body": "2023 거주 주택 중 공동주택 44.9%, 주거 전용 공동주택 평균 연면적 50.31㎡. 공식 검색 색인 확인, PDF 접근 오류. UR 발코니 안내는 칸막이·피난 접근과 화분 낙하를 다룬다. 작은 면적과 손질 접근을 함께 본다.",
+          "status": "확인 범위 제한·해석 / R10·11",
+          "sources": [
+            {
+              "label": "総務省 2023 주택 조사",
+              "url": "https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf"
+            },
+            {
+              "label": "UR 2026 · バルコニー",
+              "url": "https://www.ur-net.go.jp/chintai_portal/sumainoshiori/lrmhph000000hznx-att/202603_jp92-93.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cn",
+          "title": "중국 · 도시별 생활 사례",
+          "body": "2025 도시화율 67.89%는 아파트·정원 보유율이 아니다. 상하이 2026 창·발코니 녹화 경연은 저관리와 미관을 함께 다룬다. 베이징 기술 전시의 실내 재배 소재·관개와 공원 로봇은 다른 적용이다.",
+          "status": "확인·해석 / R13~15",
+          "sources": [
+            {
+              "label": "国家统计局 2025 인구",
+              "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202601/t20260119_1962338.html"
+            },
+            {
+              "label": "上海 2026 窗阳台绿化",
+              "url": "https://www.shanghai.gov.cn/nw4411/20260114/aa53295a8dfa4467abdaa6197e9d1b7c.html"
+            }
+          ]
+        },
+        {
+          "id": "sg",
+          "title": "싱가포르 · 공동주택·고습",
+          "body": "2025.3 시민·영주권자 인구의 HDB 거주 76.0%. 모든 HDB에 발코니가 있다는 뜻은 아니다. 외기 평균 습도 약82%(1991–2020); 공유 복도는 통행·고인 물·안정성이 중요하다. 실내 냉방 환경은 별도 측정한다.",
+          "status": "확인·해석 / R16~18",
+          "sources": [
+            {
+              "label": "HDB Key Statistics 2024/25",
+              "url": "https://www.hdb.gov.sg/-/media/hdb-pulse/reports/annual-reports-and-financial-statements/HDB_Key-Statistics-2025.pdf"
+            },
+            {
+              "label": "NParks · Corridor gardening",
+              "url": "https://gardeningsg.nparks.gov.sg/gardening-resource-library/good-corridor-gardening-practices/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korea",
+      "title": "04 대한민국 — 주거·정원 환경",
+      "intro": "한국 공식 자료를 사용한다. 어머니의 인테리어 부조화 경험을 전국 취향으로 일반화하지 않는다.",
+      "color": "#F1FEFD",
+      "cards": [
+        {
+          "id": "housing",
+          "title": "아파트의 두 비율",
+          "body": "2025 아파트 재고는 총주택의65.8%, 일반가구 중 아파트 거주는54.5%. 분모가 다르다. 1·2인 가구66.1%도 주택 크기·구매력을 직접 뜻하지 않는다. 공동주택은 중요한 조사 현장이다.",
+          "status": "확인·해석 / KR-01",
+          "sources": [
+            {
+              "label": "국가데이터처 2026.7 · 2025 센서스",
+              "url": "https://www.mods.go.kr/board.es?act=view&bid=203&list_no=446219&mid=a10301020200"
+            }
+          ]
+        },
+        {
+          "id": "balcony",
+          "title": "생활용어와 실제 공간",
+          "body": "‘베란다’는 사용자의 표현으로 유지한다. 조사에서는 미확장 발코니·확장창가·거실을 구분한다. 배수구·방수·대피시설은 집별로 확인한다. 현행 건축법 시행령 확인은 설치 적합성 판정이 아니다.",
+          "status": "확인·해석 / KR-02",
+          "sources": [
+            {
+              "label": "건축법 시행령 제2조 · 현행",
+              "url": "https://www.law.go.kr/법령/건축법시행령/제2조"
+            },
+            {
+              "label": "건축법 시행령 제46조 · 현행",
+              "url": "https://www.law.go.kr/법령/건축법시행령/제46조"
+            }
+          ]
+        },
+        {
+          "id": "microclimate",
+          "title": "계절과 화분의 미기후",
+          "body": "한국 외기는 여름 고온다습·겨울 한랭건조. 실내·창가가 외기와 같지는 않다. 창 방향·커튼·일사·난방, 화분 가림·배수·물흙 유출을 확인한다. 옮길 만큼 좋은 빛이 존재하는지가 먼저다.",
+          "status": "확인·해석 / KR-03·04",
+          "sources": [
+            {
+              "label": "기상청 · 한국 기후",
+              "url": "https://www.weather.go.kr/w/climate/statistics/korea.do"
+            },
+            {
+              "label": "농사로 · 건조형 실내정원",
+              "url": "https://www.nongsaro.go.kr/portal/ps/psz/psza/contentMain.ps?menuId=PS04109"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demand",
+      "title": "05 수요는 확인하되 시장을 합산하지 않는다",
+      "intro": "전체 원예·반려식물 활동, 서비스 이용, 실제 로봇 가구 구매는 서로 다른 지표다.",
+      "color": "#FFFBF0",
+      "cards": [
+        {
+          "id": "krdemand",
+          "title": "한국 · 활동과 돌봄",
+          "body": "2024 성인500명 조사에서 반려식물 재배 응답34%, 재배 장소 실내90.2%. 전체 국민의90.2%가 아니다. 2조4,215억원은 광의 비용 기반 산업 추산이다. 실내 금액의 원문 단위 불일치·연령 분모 모호 수치는 제외했다.",
+          "status": "확인·제한 / KR-05",
+          "sources": [
+            {
+              "label": "농진청 2025.3 · 반려식물 조사",
+              "url": "https://rda.go.kr/board/board.do?boardId=farmprmninfo&currPage=193&dataNo=100000801530&mode=updateCnt&prgId=day_farmprmninfoEntry&searchEDate=&searchKey=&searchOrgDeptKey=org&searchOrgDeptVal=&searchSDate=&searchVal="
+            }
+          ]
+        },
+        {
+          "id": "reverse",
+          "title": "성장만 가정할 수 없다",
+          "body": "미국2025 전체 원예 지출790억달러(+13.5%)이나 참여가구 약450만 감소(NGS 공개 요약). 독일2025 실내식물·절화 묶음 -2.8%. 일본2인이상 가구의 원예식물·용품 지출은1999→2023 -28.4%. 범위·단위가 달라 순위 비교는 하지 않는다.",
+          "status": "확인·제한 / R03·09·12",
+          "sources": [
+            {
+              "label": "NGS 2026 공개 요약",
+              "url": "https://gardenresearch.com/view/national-gardening-survey-2026-edition/"
+            },
+            {
+              "label": "독일 IVG 2025 시장",
+              "url": "https://ivg.org/der-gartenmarkt/aktuelle-marktzahlen/"
+            },
+            {
+              "label": "日本 MAFF 지출 자료",
+              "url": "https://www.maff.go.jp/j/seisan/kaki/flower/attach/pdf/f_japanflower-85.pdf"
+            }
+          ]
+        },
+        {
+          "id": "signals",
+          "title": "주제로서의 지속성",
+          "body": "서울2024 식물 진단·처방 약1.4만건,2026 클리닉 운영 안내. RHS의 원예 보고서·소공간 전시, 상하이 녹화 경연도 현재 관심의 근거다. 무료 서비스·전시의 참여는 유료 제품 수요와 다르다.",
+          "status": "확인·해석 / KR-06·07·R05·14",
+          "sources": [
+            {
+              "label": "서울 2025 · 이용 실적",
+              "url": "https://mediahub.seoul.go.kr/archives/2014827"
+            },
+            {
+              "label": "서울 2026 · 클리닉 안내",
+              "url": "https://news.seoul.go.kr/economy/archives/546040"
+            }
+          ]
+        },
+        {
+          "id": "gap",
+          "title": "틈새시장 가설",
+          "body": "기존 화분을 버리고 싶지 않고, 청소·손질·배치가 번거로운 사람. 일반 선반·바퀴받침보다 나은지 관찰해야 한다. 대상가구×마찰보유×설치가능×구매선택의 계수는 모두 미정; 총 원예시장을 TAM으로 쓰지 않는다.",
+          "status": "가설·미정",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "direct",
+      "title": "06 직접 선행자 — 모듈·가구·급수",
+      "intro": "‘모듈러+자동급수’ 또는 ‘가구 형태’ 자체로 차별화를 확정하기 어렵다.",
+      "color": "#F5FBFF",
+      "cards": [
+        {
+          "id": "pila",
+          "title": "LECHUZA PILA · 독일",
+          "body": "화분+수납 모듈, 최대3단, 저면급수, 수동 롤받침을 공식 판매. 정리·조화·모듈·급수·이동 일부가 이미 결합되어 있다. 전용 규격 안의 조합이며 자율 이동은 아니다.",
+          "status": "판매 안내 확인 / PR-05",
+          "sources": [
+            {
+              "label": "PILA · 독일어 공식 시스템",
+              "url": "https://www.lechuza.de/das-modulare-pflanzsystem-pila/tw-pila.html"
+            }
+          ]
+        },
+        {
+          "id": "lgfurniture",
+          "title": "LG 램프·테이블형 · 한국",
+          "body": "2024.12 공식 발표의 CES2025 전시 계획. 조명·가구 형태와 물·영양 공급의 결합. 이번 조사에서 해당 형태의 정식 판매·출하·장기 성능은 확인하지 않았다.",
+          "status": "발표 확인·출하 미확인 / PR-10",
+          "sources": [
+            {
+              "label": "LG · CES2025 공식 발표",
+              "url": "https://www.lg.com/us/newsroom/home-appliance/lg-indoor-gardening-appliance"
+            }
+          ]
+        },
+        {
+          "id": "gardena",
+          "title": "GARDENA AquaBloom · 독일",
+          "body": "물통·태양광 기반 발코니 급수 제품군. 기존 화분들에 호스를 더해 돌봄을 보조한다. 수납·가구 조화·화분 이동과는 다른 문제를 푼다. 거실 전용 가능성은 별도 검토다.",
+          "status": "판매 안내 확인 / PR-06",
+          "sources": [
+            {
+              "label": "GARDENA · 독일어권 제품군",
+              "url": "https://www.gardena.com/at/produkte/bewaesserung/bewaesserung-ohne-wasseranschluss-urlaubsbewaesserung"
+            }
+          ]
+        },
+        {
+          "id": "takagi",
+          "title": "takagi GKK105 · 일본",
+          "body": "타이머·수전 연결 점적급수, 기존 화분에 적용. 공식 설명은 일반 가정 옥외 살수용이다. 한국 거실용 제품으로 소개하지 않는다. 수압·호스 미관·동결·누수를 검토할 기술 사례다.",
+          "status": "판매 안내·옥외용 / PR-07",
+          "sources": [
+            {
+              "label": "タカギ · 일본어 공식 판매",
+              "url": "https://prd1.takagi-member.jp/store/products/detail/96"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growers",
+      "title": "07 전용 재배기 — 관상화분과 구분",
+      "intro": "식용 허브·잎채소의 규격화된 재배와 오래 가진 흙화분의 수용은 같은 문제가 아니다.",
+      "color": "#FFF7F0",
+      "cards": [
+        {
+          "id": "gardyn",
+          "title": "Gardyn Home 4 · 미국",
+          "body": "수경30위치, 물·조명·센싱을 통합한 판매 제품. 고급 관리와 식물 크레딧은 멤버십, 기본 설정·센서 읽기는 비회원도 가능. 수확용 수직 정원과 기존 여러 화분을 받는 가구를 구분한다.",
+          "status": "판매 안내·멤버십 구분 / PR-01",
+          "sources": [
+            {
+              "label": "Gardyn · 제품",
+              "url": "https://mygardyn.com/products/gardyn-home-kit"
+            },
+            {
+              "label": "Gardyn · FAQ",
+              "url": "https://mygardyn.com/pages/faq"
+            }
+          ]
+        },
+        {
+          "id": "clickgrow",
+          "title": "Click & Grow · 에스토니아",
+          "body": "Smart Garden9는9 Pod·물통·심지급수·자동 LED. 펌프·이동 로봇 없이도 돌봄을 보조하는 비교 기준이다. 전용 위치와 Pod 규격, 거실 조명 방해·물통 관리는 남는다.",
+          "status": "판매 안내 확인 / PR-03",
+          "sources": [
+            {
+              "label": "Smart Garden9 · 영어",
+              "url": "https://www.clickandgrow.com/products/the-smart-garden-9"
+            }
+          ]
+        },
+        {
+          "id": "veritable",
+          "title": "Véritable SMART · 프랑스",
+          "body": "4 Lingot·적응형 LED·급수·수위 안내. 허브·식용 꽃·작은 채소를 즐기는 판매 사례. 전용 배지·씨앗·영양 리필이며 임의 관상화분이나 자동 이동 호환을 확인한 사례가 아니다.",
+          "status": "판매 안내 확인 / PR-04",
+          "sources": [
+            {
+              "label": "Véritable SMART · 프랑스어",
+              "url": "https://www.veritable-potager.fr/fr/potagers-d-interieur/181-veritable-smart.html"
+            }
+          ]
+        },
+        {
+          "id": "tiiun",
+          "title": "LG 틔운 계열 · 대한민국",
+          "body": "2021 틔운·2022 미니 출시 기능과 현행 미니·키트 분류를 확인. 가전·탁상형의 식물 경험. 전용 씨앗키트·영양제 중심이다. 역사적 스펙을 현재 전모델에 적용하거나 대형 본체 판매까지 확정하지 않는다.",
+          "status": "출시·현행 분류 확인 / PR-09",
+          "sources": [
+            {
+              "label": "LG 미니 · 2022 한국어",
+              "url": "https://www.lg.co.kr/media/release/24526"
+            },
+            {
+              "label": "LG · 현행 제품 분류",
+              "url": "https://www.lge.co.kr/category/lg-tiiun"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "title": "08 기술의 실제 범위와 수명",
+      "intro": "자동급수·센싱과 물리적 위치·작업 제어를 구분하고, 설치 환경의 차이를 기록한다.",
+      "color": "#F8F5FF",
+      "cards": [
+        {
+          "id": "farmbot",
+          "title": "FarmBot · 미국",
+          "body": "흙 베드 위의 갠트리가 파종·급수·센서 도구를 이동한다. 식물이 거실을 자율주행하는 사례가 아니다. v1.8은 공식 페이지 품절, v1.9는 사전주문; 예약품 출하는 미확인이다.",
+          "status": "로보틱스·판매 상태 확인 / PR-02",
+          "sources": [
+            {
+              "label": "FarmBot v1.8",
+              "url": "https://farm.bot/products/farmbot-genesis-v1-8"
+            },
+            {
+              "label": "FarmBot v1.9 사전주문",
+              "url": "https://farm.bot/collections/farmbot-kits/products/farmbot-genesis-v1-9"
+            }
+          ]
+        },
+        {
+          "id": "xiaomi",
+          "title": "花花草草 · 중국",
+          "body": "기존 흙화분에 광·온도·수분·EC 관련 센서와 앱 조언을 더한다. 급수·이동 기능은 아니다. 공식 설명·앱 업데이트 확인, 하드웨어 현행 재고 미확인. EC는 개별 영양소 분석이 아니다.",
+          "status": "센싱 확인·판매 미확인 / PR-08",
+          "sources": [
+            {
+              "label": "小米 · 중국어 제품 설명",
+              "url": "https://www.mi.com/flowermonitor"
+            },
+            {
+              "label": "花花草草 · 공식 앱",
+              "url": "https://m.app.mi.com/details?id=com.huahuacaocao.flowercare"
+            }
+          ]
+        },
+        {
+          "id": "vegepod",
+          "title": "Vegepod · 호주",
+          "body": "흙 재배 베드·저면급수·커버, 별도 스탠드와 수동 트롤리 판매 사례. 낮은 기술 복잡도로 돌봄과 작업높이를 결합한다. 외부 공간·젖은 중량과 거실 관상정원의 차이를 검토한다.",
+          "status": "판매 안내 확인 / PR-11",
+          "sources": [
+            {
+              "label": "Vegepod · 기능",
+              "url": "https://vegepod.com.au/pages/product-features"
+            }
+          ]
+        },
+        {
+          "id": "lifetime",
+          "title": "AeroGarden · 철수 계획과 복귀",
+          "body": "Scotts2024 결산은 사업 wind-down 비용을 기록. 현재 공식 페이지는 복귀·판매를 안내한다. 사라진 기업으로 단정하지 않는다. 가구 수명 동안 앱·전용 소모품 공급이 변해도 쓸 수 있는지 질문한다.",
+          "status": "역사·현재 안내 확인 / PR-12",
+          "sources": [
+            {
+              "label": "Scotts · 2024 결산",
+              "url": "https://investor.scotts.com/news-releases/news-release-details/scottsmiracle-gro-reports-fiscal-2024-fourth-quarter-and-full"
+            },
+            {
+              "label": "AeroGarden · 현재 공식 복귀",
+              "url": "https://scottsmiraclegro.com/en-us/learn/fresh-news-aerogarden-is-back-in-business-and-growing.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friction",
+      "title": "09 생활 마찰 — 기능보다 먼저",
+      "intro": "무엇이 줄고, 어떤 일이 새로 생기며, 어떤 선택이 남는지 같은 장면에서 비교한다.",
+      "color": "#F1FEFD",
+      "cards": [
+        {
+          "id": "clean",
+          "title": "청소·분갈이",
+          "body": "화분 들어 옮기기, 물흙 닦기, 도구 되돌리기를 관찰한다. 탈착 받침·작업 트레이·도구 수납·잠금 바퀴 후보. 레일·바퀴·물받이 자체의 청소가 얼마나 늘어나는가?",
+          "status": "관찰·해법 제안",
+          "sources": []
+        },
+        {
+          "id": "care",
+          "title": "급수·손질",
+          "body": "물통 왕복·받침 물 비우기·뒤쪽 잎 접근·자세를 기록한다. 화분별 급수·수동 인출·회전·제한 이동 후보. 탱크·호스 세척과 잎 걸림도 기록한다.",
+          "status": "관찰·해법 제안",
+          "sources": []
+        },
+        {
+          "id": "growth",
+          "title": "취향·성장·계절",
+          "body": "커진 화분, 지지대, 낙엽, 빈 자리, 커튼과 빛을 받아들인다. 가변 간격·어댑터·외장 교환 후보. 외장 통일을 원치 않거나 직접 물주기를 즐기는 사람의 선택을 남긴다.",
+          "status": "관찰·해법 제안",
+          "sources": []
+        },
+        {
+          "id": "metrics",
+          "title": "평가의 공통식",
+          "body": "가치 판단 = 줄어든 생활 수고 − 새로 생긴 조작·청소·대기·복구 부담. 여기에 취향 만족·식물 상태·남는 선택권을 별도로 기록한다. 시간 절감만으로 미감을 점수화하지 않는다.",
+          "status": "평가 제안",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "difference",
+      "title": "10 차별화 — 검증할 세 묶음",
+      "intro": "특허·디자인권 신규성 조사와 제품 실증은 이번 범위에 포함되지 않았다.",
+      "color": "#FFFBF0",
+      "cards": [
+        {
+          "id": "accept",
+          "title": "기존 식물을 받아들이기",
+          "body": "기존 관상화분과 수형을 보존하고 성장·분갈이 변화를 받아주는가? 호환 범위·어댑터 종류·옮겨 심기 부담을 측정한다. 모든 화분 호환은 현재 약속하지 않는다.",
+          "status": "차별화 가설",
+          "sources": []
+        },
+        {
+          "id": "access",
+          "title": "살아 있는 가구로 접근 보조",
+          "body": "보기 좋은 배치와 청소·손질 위치 사이를 사용자가 선택하게 하는가? 정적 선반·바퀴받침과 비교해 들어 올림·불편한 자세·총 시간의 개선을 확인한다.",
+          "status": "차별화 가설",
+          "sources": []
+        },
+        {
+          "id": "repair",
+          "title": "수리·세척·선택 가능한 도움",
+          "body": "오염 부품·급수·구동을 분리해 세척·교체하고, 도움을 거절하거나 정전·통신 장애 때 수동으로 쓸 수 있는가? 단순 외형이나 기능 개수와 다른 비교 기준이다.",
+          "status": "차별화 가설",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "swot",
+      "title": "11 사용자 아이디어 SWOT",
+      "intro": "S는 잠재 강점, W는 현재 미정과 복잡도. O/T는 외부 기회·위협. 실제 우위는 검증 전이다.",
+      "color": "#F8F5FF",
+      "cards": [
+        {
+          "id": "s",
+          "title": "S · 잠재 강점",
+          "body": "구체적인 가족 경험에서 출발. 정리·심미성·돌봄을 함께 설계할 수 있다. 성장과 취향을 모듈로 받아들이고, 필요한 동작에만 움직임을 붙일 가능성.",
+          "status": "가설·분석",
+          "sources": []
+        },
+        {
+          "id": "w",
+          "title": "W · 현재 약점",
+          "body": "가장 큰 마찰·타깃·효과·원가 미정. 제각각의 화분·젖은 흙·물·잎. 구동·급수·가구를 통합하면 세척·고장 복구가 얽힌다.",
+          "status": "분석",
+          "sources": []
+        },
+        {
+          "id": "o",
+          "title": "O · 외부 기회",
+          "body": "식물을 이미 키우는 사람의 지속 관리, 접근성 보조, 이사 가능한 가구, 인테리어·식물 판매 협업을 조사할 수 있다. 수요가 검증된 세그먼트는 아니다.",
+          "status": "기회 가설",
+          "sources": []
+        },
+        {
+          "id": "t",
+          "title": "T · 외부 위협",
+          "body": "PILA·LG 등 가까운 선행자. 저렴한 선반·바퀴·급수 장치가 충분할 수 있다. 설치·대피 조건, 앱·부품·소모품 공급 변화, 자동화가 즐거움을 줄일 가능성.",
+          "status": "분석",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "competitors",
+      "title": "12 경쟁 해법 SWOT와 대응",
+      "intro": "제품별 확인 기능은 앞의 사례 카드, 상세 비교표는 통합 보고서에 있다.",
+      "color": "#F5FBFF",
+      "cards": [
+        {
+          "id": "manual",
+          "title": "수동 모듈·저면/점적급수",
+          "body": "S 낮은 복잡도·기존 배치에 추가. W 들기·손질·호스·물통 관리가 남음. O 소공간·여행·기존 화분. T 저가 대체재·과습·누수. 이 해법보다 새 시스템이 나은지부터 비교한다.",
+          "status": "SWOT 분석",
+          "sources": []
+        },
+        {
+          "id": "dedicated",
+          "title": "전용 재배기·가구형 재배기",
+          "body": "S 규격화된 돌봄·생활 공간 결합. W 큰 기존 흙화분·전용 소모품·청소 제약. O 허브·교육·인테리어. T 비용·서비스 변경·유사 기능의 대기업 제품. 관상정원과 식용재배를 나눠 평가한다.",
+          "status": "SWOT 분석",
+          "sources": []
+        },
+        {
+          "id": "robot",
+          "title": "재배 로봇·이동 기구",
+          "body": "S 정해진 좌표·작업을 자동화. W 불규칙 화분·잎·생활 동선, 설치 복잡도. O 접근 보조 기술 전용. T 안전·수리·원가. 기존 사례의 기능이 가정 적용의 입증은 아니다.",
+          "status": "SWOT 분석",
+          "sources": []
+        },
+        {
+          "id": "tows",
+          "title": "교차 전략 · 채택은 미정",
+          "body": "SO 기존 사용자와 청소·손질을 공동 설계. WO 수동 구조로 가치 확인 후 한 동작 구동. ST 화분 보존·세척·수리·행동 개선으로 비교. WT 여러 자동화를 한꺼번에 묶지 않고 실패 시 수동 사용을 남긴다.",
+          "status": "전략 제안",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "options",
+      "title": "13 A~D 선택지 — 조합·보류 가능",
+      "intro": "기술 순서는 제안이다. 사용자는 바꾸거나, 합치거나, 모든 구동을 제외할 수 있다.",
+      "color": "#FFF7F0",
+      "cards": [
+        {
+          "id": "a",
+          "title": "A · 모듈러 정원 가구",
+          "body": "기존 화분 받침, 도구 수납, 탈착 물받이, 가변 간격. 정리·미감·세척·성장 대응을 비교한다. 현재 배치·일반 선반·PILA보다 나은지 확인. 규격·재료·예산 미정.",
+          "status": "후보·미정",
+          "sources": []
+        },
+        {
+          "id": "b",
+          "title": "B · 수동 이동·접근 보조",
+          "body": "잠금 바퀴, 수동 인출·회전. 바닥 청소와 손질이 쉬워지는지 확인한다. 힘·안정성·바닥 흠집·잎 간섭을 포함해 A와 바퀴받침을 비교한다.",
+          "status": "후보·미정",
+          "sources": []
+        },
+        {
+          "id": "c",
+          "title": "C · 한 가지 제한 구동",
+          "body": "요청 시 한 모듈을 인출하거나 제한 높이로 이동. 젖은 최대 하중·끼임·전도·정전 회수를 조사한다. B의 같은 동작 대비 충분한 개선이 있어야 한다.",
+          "status": "후보·미정",
+          "sources": []
+        },
+        {
+          "id": "d",
+          "title": "D · 분산 관리·재배치",
+          "body": "화분별 급수·센싱, 제한 위치 간 이동 또는 제안. 센서 신뢰·호스·전력·식물 효과를 검증한다. 고정 급수·식물 선택·보광보다 가치가 있는가? 순간 조도 최대값은 생장 보증이 아니다.",
+          "status": "후보·미정",
+          "sources": [
+            {
+              "label": "Purdue · 일일 누적 광량",
+              "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-238-w.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "14 디자인 언어와 주의사항",
+      "intro": "아래는 상세 설계의 입력이며, 재료·구조·인증이 확정되었다는 뜻은 아니다.",
+      "color": "#F1FEFD",
+      "cards": [
+        {
+          "id": "visual",
+          "title": "식물이 주인공인 비례",
+          "body": "기계 노출 정도, 기존 화분 다양성, 외장 통일을 사용자 취향으로 선택. 젖는 받침과 외장을 분리하고, 전선·호스를 가려도 점검·세척 접근은 남긴다. 빈 자리·지지대·성장을 받아들인다.",
+          "status": "디자인 제안",
+          "sources": []
+        },
+        {
+          "id": "water",
+          "title": "물·식물·위생",
+          "body": "화분별 배수·수분 요구, 탱크와 물받이 세척, 신규 식물 분리. 과습·고인 물·해충을 고려한다. 일반 화분의 공기정화·치유 효능을 제품의 확정 가치로 주장하지 않는다.",
+          "status": "근거·검토 제안",
+          "sources": [
+            {
+              "label": "Maryland · 실내 급수",
+              "url": "https://www.extension.umd.edu/resource/watering-indoor-plants"
+            },
+            {
+              "label": "Cummings & Waring2019 · VOC 리뷰",
+              "url": "https://www.nature.com/articles/s41370-019-0175-9"
+            }
+          ]
+        },
+        {
+          "id": "motion",
+          "title": "하중·구동·생활 동선",
+          "body": "물+젖은 흙+성장한 식물 하중, 무게중심, 전도·끼임·낙하·잎·호스 걸림. 아이·동물·커튼·로봇청소기·대피 접근. 정전·위치 오류 때 하중 유지와 수동 회수는 실물 검증이 필요하다.",
+          "status": "기구 검토 제안",
+          "sources": []
+        },
+        {
+          "id": "cost",
+          "title": "설치·수명·총 비용",
+          "body": "임대·이사·원상복구, 전기안전·국내 적용 인증을 구성 후 확인. 전력·소모품·설치·세척·수리·앱 중단 포함. 가격·원가 미정. 저렴한 대안이 같은 일을 풀면 방향을 수정할 수 있다.",
+          "status": "사업·검증 제안",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "title": "15 공감 조사와 작은 비교 실험",
+      "intro": "실행 전 제안. 안전한 수동 모형부터 시작하며 식물 생장 검증은 별도 기간에 수행한다.",
+      "color": "#FFFBF0",
+      "cards": [
+        {
+          "id": "observe",
+          "title": "공감 · 실제 장면 보기",
+          "body": "어머니의 정원과 생활 조건이 다른6~8가구 탐색 표본 제안(대표 조사 아님). 최근 물주기·바닥 청소·손질을 보여달라고 한다. 동의받아 치수·무게·왕복·물흘림·불편 자세·취향을 기록한다.",
+          "status": "실험 제안",
+          "sources": []
+        },
+        {
+          "id": "compare",
+          "title": "동일 과제로 비교",
+          "body": "현재 배치 / 일반 선반·바퀴받침 / A/B 모형. 같은 화분과 공간에서 청소·급수·뒤쪽 손질을 비교하고 순서를 바꾼다. 신제품 선호 편향과 장치 세척·대기시간도 기록한다.",
+          "status": "실험 제안",
+          "sources": []
+        },
+        {
+          "id": "measure",
+          "title": "평가 · 빈칸을 남기기",
+          "body": "총 시간·들기 횟수·왕복, 새 관리 부담, 실제 거실에 둘 의사와 이유, 도움 거절·수동 사용을 기록. 합격 기준은 사용자가 선택. 수주~계절의 식물 상태는 단기 사용성과 구분한다.",
+          "status": "평가 제안·기준 미정",
+          "sources": []
+        },
+        {
+          "id": "stop",
+          "title": "수정·보류 신호",
+          "body": "바퀴받침만으로 충분한가? 장치 세척이 절감 시간을 상쇄하는가? 좋아하는 화분을 포기해야 하는가? 대피·생활 동선에 불리한가? 해당 방향을 수정·보류·제거할 수 있다.",
+          "status": "판단 제안",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "choices",
+      "title": "16 내가 선택하고 확장하는 곳",
+      "intro": "이 카드를 직접 수정하거나 복제한다. AI의 후보와 나의 채택은 다르며, 지금 모든 선택은 미정이다.",
+      "color": "#FFF0FA",
+      "cards": [
+        {
+          "id": "scene",
+          "title": "가장 먼저 풀 장면",
+          "body": "내 선택: 미정\n후보: 청소 / 급수 / 손질 / 배치 / 여행\n이유·관찰 근거:\n보류할 문제:",
+          "status": "사용자 입력·미정",
+          "sources": []
+        },
+        {
+          "id": "plants",
+          "title": "식물과 설치 공간",
+          "body": "식물: 기존 관상 / 식용 허브 / 혼합 / 미정\n공간: 거실 / 확장창가 / 미확장 / 외기 / 미정\n실측·사진 근거:\n남길 즐거움:",
+          "status": "사용자 입력·미정",
+          "sources": []
+        },
+        {
+          "id": "form",
+          "title": "형태와 이동 대상",
+          "body": "형태: 독립 가구 / 부착 모듈 / 미정\n이동: 개별 화분 / 트레이 / 선반 / 전체 / 미정\n호환·설치·크기 조건:\n선택 이유:",
+          "status": "사용자 입력·미정",
+          "sources": []
+        },
+        {
+          "id": "auto",
+          "title": "자동화·예산·거절 조건",
+          "body": "수동 / 요청 구동 / 제안 후 승인 / 조건 자동 / 미정\n예산·설치 허용: 미정\n자동화하고 싶지 않은 일:\n도움을 중단하는 방법:",
+          "status": "사용자 입력·미정",
+          "sources": []
+        },
+        {
+          "id": "next",
+          "title": "다음 행동",
+          "body": "관찰 / 질문 재정의 / 후보 혼합 / 모형 비교 / 보류\n내 선택: 미정\n먼저 풀 불확실성:\n합격·보류 기준:",
+          "status": "사용자 입력·미정",
+          "sources": []
+        },
+        {
+          "id": "log",
+          "title": "변경 기록",
+          "body": "날짜:\n바꾼 항목:\n이유·근거:\n유지 / 수정 / 보류:\n다음 질문:",
+          "status": "사용자 입력·미정",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "17 출처·검증 범위·수정 안내",
+      "intro": "각 카드의 원문 링크를 클릭한다. 상세 근거·연도·분모·자료 확인 방식은 통합 보고서의 R01~18 / KR-01~07 / PR-01~13에 있다.",
+      "color": "#F9F9F9",
+      "cards": [
+        {
+          "id": "scope",
+          "title": "조사 범위",
+          "body": "7개국 주거·정원 환경 표본과11개 제품 사례, 제품 원문6개 언어. 확인일2026.10.11. 전수 시장조사·특허 조사·현장 인터뷰·구매 실험·실물 안전/생장 검증은 수행하지 않았다.",
+          "status": "범위 안내",
+          "sources": []
+        },
+        {
+          "id": "confidence",
+          "title": "근거의 신뢰·한계",
+          "body": "정부 통계=해당 분모·연도만. 협회 조사=추계 범위 확인. 제조사=기능·발표/판매 안내. 검색 색인만 확인한 항목은 해당 카드에 제한 표시. 구매 안내는 한국 수입·전압·배송 보증이 아니다.",
+          "status": "근거 안내",
+          "sources": []
+        },
+        {
+          "id": "sourcesus",
+          "title": "미기후와 원예 원리",
+          "body": "외기 기후를 실내로 그대로 옮기지 않는다. 적절한 빛·배수와 식물별 요구를 확인한다. 한국·싱가포르 기후 원문, 대학·원예기관의 관리 안내를 교차 참고한다.",
+          "status": "추가 원문",
+          "sources": [
+            {
+              "label": "Singapore · Climate normals",
+              "url": "https://www.weather.gov.sg/climate-climate-of-singapore/"
+            },
+            {
+              "label": "UMN · 실내 빛",
+              "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants"
+            },
+            {
+              "label": "UMN · 실내 해충",
+              "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants"
+            }
+          ]
+        },
+        {
+          "id": "edit",
+          "title": "계속 수정하는 방법",
+          "body": "FigJam에서 문장·카드·섹션을 직접 편집·복제. 로컬 JSON은 데이터 원본. 동봉 가져오기/내보내기 플러그인은 새 복사본을 만들고 선택한 연구 보드의 제목·본문·상태·출처를 JSON으로 저장한다. 자동 동기화는 없다.",
+          "status": "사용 안내",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

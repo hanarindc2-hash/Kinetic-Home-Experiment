@@ -1,0 +1,18 @@
+{
+  "path": "C:\\Users\\5edwa\\OneDrive\\Desktop\\2 product\\5 kinetic home\\output\\kinetic-garden\\Living_Spatial_Infrastructure_Prologue_and_606_v0.3.docx",
+  "paragraphs": 193,
+  "tables": 13,
+  "hyperlinks": 49,
+  "characters": 18665,
+  "size": 60134,
+  "renderStatus": "verified",
+  "checkedAt": "2026-10-11",
+  "renderedPages": 25,
+  "renderer": "Canonical render_docx.py with workspace-only LibreOffice 26.8.1 and Poppler",
+  "visualInspection": "All 25 rendered pages inspected; tables, Korean glyphs, source links, and decision paragraphs checked. Pages 13 and 17 additionally inspected at 180 DPI.",
+  "docxSha256": "68e8666122d559a0c219a353689b2eaec8b721518ec3d8d6ab540fb5432fee70",
+  "renderedPdfSha256": "bfab7c99b36de045dd245ec8cfe27035a1823210002c017801c3915c2b290a0f",
+  "wordNativeVerification": false,
+  "editable": "Native Word paragraphs, heading styles, tables, hyperlinks, and blank decision records",
+  "researchBoundary": "Published-source research and design hypotheses; physical prototype, demand, plant growth, installation, and regulatory suitability not verified"
+}
