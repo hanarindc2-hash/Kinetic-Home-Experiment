@@ -23,7 +23,7 @@ typedef struct {
 } RailModule;
 
 static float clamp(float x, float lo, float hi) {
-	return fmixf(hi, fmaxf(lo, x));
+	return fminf(hi, fmaxf(lo, x));
 }
 
 static float calculated_speed_limit(float mass_kg){
