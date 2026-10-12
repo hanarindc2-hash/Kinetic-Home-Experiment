@@ -17,7 +17,6 @@ typedef struct {
 	float velocity_mm_per_s;
 	float max_speed_mm_per_s;
 	float torque_Nm;
-	float brake_locked;
 	bool brake_locked;
 	RailState state;
 } RailModule;
